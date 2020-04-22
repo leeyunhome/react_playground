@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
+import GuGudan from "./components/GuGudan";
 
 const App = () => {
   return (
-    <div>
+    <>
       hello world
-    </div>
+      <GuGudan />
+    </>
   );
 };
 
